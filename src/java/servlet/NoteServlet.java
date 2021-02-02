@@ -33,7 +33,7 @@ public class NoteServlet extends HttpServlet {
         String content = br.readLine();
         
         Note note = new Note(title, content);
-        request.setAttribute("note", note);
+
         
         if(request.getParameter("edit") !=null)
         {

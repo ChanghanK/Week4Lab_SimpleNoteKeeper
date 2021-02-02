@@ -17,6 +17,6 @@
         <form method="POST" action="note">
             <h3>Title:</h3><input type="text" name="title" value="${note.title}">
             <h3>Contents:</h3><textarea rows="5" cols="50" name="content">${note.content}</textarea><br>
-            <input type="submit" value="Submit">
+            <input type="submit" value="Save">
     </body>
 </html>
